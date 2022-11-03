@@ -1,0 +1,176 @@
+Script started on 2021-12-10 19:19:02-08:00 [TERM="xterm-256color" TTY="/dev/pts/8" COLUMNS="156" LINES="48"]
+avakil@csslab10h:~/ucourses/css343/css343lab4$ g++ *.cpp
+avakil@csslab10h:~/ucourses/css343/css343lab4$ valgrind ./a.out
+==166811== Memcheck, a memory error detector
+==166811== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==166811== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==166811== Command: ./a.out
+==166811== 
+//---------------------------------------------------------------------------
+CHILDREN BOOKS
+AVAIL  TITLE                          AUTHOR                        YEAR
+5      As the Waltz was Ending        Butterworth Emma Macalik      1982
+5      Danny Dunn & the Homework      Williams Jay                  1959
+5      Horton hears a Who             Seuss Dr.                     1954
+5      I Hate My Brother Harry        Dragonwagon Crescent          1983
+5      If you give a mouse a cook     Numeroff Laura                1985
+5      Martha the Movie Mouse         Lobel Arnold                  1966
+5      Old Lars                       Magnus Erica                  1984
+5      Penelope Gets Wheels           Peterson Esther Allen         1982
+5      Robots and Intelligent Mac     Litterick Ian                 1984
+5      Smokey                         Peet Bill                     1962
+5      The Secret Life of Mr. Wei     Allen Jeffrey                 1982
+5      Treehorn's Wish                Heide Florence Parry          1984
+5      Yertle the Turtle              Seuss Dr.                     1950
+
+FICTION BOOKS
+AVAIL  AUTHOR                    TITLE                              YEAR
+5      Daheim Mary               Fowl Prey                          1991
+5      Daheim Mary               The Alpine Advocate                1992
+5      Daheim Mary               The Alpine Betrayal                1993
+5      Forster E. M.             The Longest Journey                1922
+5      Higgins Colin             Harold and Maude                   1971
+5      Kerouac Jack              On the Road                        1955
+5      Kerouac Jack              The Dharma Bums                    1958
+5      Lawrence D. H.            Lady Chatterley's Lover            1928
+5      Lawrence D. H.            Sons and Lovers                    1913
+5      Lewis Sinclair            Babbitt                            1922
+5      Muller Marcia             Edwin of the Iron Shoes            1977
+5      Muller Marcia             Eye of the Storm                   1988
+5      Pirsig Robert             Zen & the Art of Motorcycl         1974
+5      Tolkien J.R.R.            The Hobbit                         1937
+5      Walker Alice              The Color Purple                   1982
+5      Wright Richard            Native Son                         1940
+
+PERIODICAL BOOKS
+AVAIL  YEAR    MONTH          TITLE                     
+1      2009    1              Vegetarian Times               
+1      2009    2              Communications of the ACM      
+1      2009    2              Vegetarian Times               
+1      2009    3              Communications of the ACM      
+1      2009    4              Communications of the ACM      
+1      2009    5              Communications of the ACM      
+1      2009    7              Communications of the ACM      
+1      2009    7              Sigart Bulletin                
+1      2010    1              Communications of the ACM      
+1      2010    1              Vegetarian Times               
+1      2010    2              Communications of the ACM      
+1      2010    3              Communications of the ACM      
+1      2010    12             Vegetarian Times               
+1      2012    3              Communications of the ACM      
+
+1000  Mouse Minnie:
+ Mouse Minnie does not have a history
+1111  Mouse Mickey:
+ Mouse Mickey does not have a history
+5000  Moose Bullwinkle:
+ Moose Bullwinkle does not have a history
+ERROR: Patron with ID 5678 doesn't exist.
+ERROR: 'Z' is not a valid action
+ERROR: 'X' is not a valid LibItem type.
+ERROR: Patron with ID 1234 doesn't exist.
+ERROR:  Mouse Minnie tried to check out 'Bogus Title' - not found in catalog.
+ERROR:  Mouse Minnie tried to return 'Bogus Title' - not found in catalog.
+ERROR: 'X' is not a valid action
+ERROR: There are no more copies of Harold and Maude in the library
+ERROR: There are no more copies of Harold and Maude in the library
+ERROR: There are no more copies of Harold and Maude in the library
+CHILDREN BOOKS
+AVAIL  TITLE                          AUTHOR                        YEAR
+5      As the Waltz was Ending        Butterworth Emma Macalik      1982
+5      Danny Dunn & the Homework      Williams Jay                  1959
+5      Horton hears a Who             Seuss Dr.                     1954
+5      I Hate My Brother Harry        Dragonwagon Crescent          1983
+5      If you give a mouse a cook     Numeroff Laura                1985
+5      Martha the Movie Mouse         Lobel Arnold                  1966
+4      Old Lars                       Magnus Erica                  1984
+5      Penelope Gets Wheels           Peterson Esther Allen         1982
+5      Robots and Intelligent Mac     Litterick Ian                 1984
+4      Smokey                         Peet Bill                     1962
+5      The Secret Life of Mr. Wei     Allen Jeffrey                 1982
+4      Treehorn's Wish                Heide Florence Parry          1984
+4      Yertle the Turtle              Seuss Dr.                     1950
+
+FICTION BOOKS
+AVAIL  AUTHOR                    TITLE                              YEAR
+5      Daheim Mary               Fowl Prey                          1991
+4      Daheim Mary               The Alpine Advocate                1992
+3      Daheim Mary               The Alpine Betrayal                1993
+4      Forster E. M.             The Longest Journey                1922
+1      Higgins Colin             Harold and Maude                   1971
+4      Kerouac Jack              On the Road                        1955
+4      Kerouac Jack              The Dharma Bums                    1958
+4      Lawrence D. H.            Lady Chatterley's Lover            1928
+5      Lawrence D. H.            Sons and Lovers                    1913
+4      Lewis Sinclair            Babbitt                            1922
+4      Muller Marcia             Edwin of the Iron Shoes            1977
+4      Muller Marcia             Eye of the Storm                   1988
+4      Pirsig Robert             Zen & the Art of Motorcycl         1974
+4      Tolkien J.R.R.            The Hobbit                         1937
+4      Walker Alice              The Color Purple                   1982
+4      Wright Richard            Native Son                         1940
+
+PERIODICAL BOOKS
+AVAIL  YEAR    MONTH          TITLE                     
+1      2009    1              Vegetarian Times               
+1      2009    2              Communications of the ACM      
+1      2009    2              Vegetarian Times               
+1      2009    3              Communications of the ACM      
+1      2009    4              Communications of the ACM      
+1      2009    5              Communications of the ACM      
+0      2009    7              Communications of the ACM      
+0      2009    7              Sigart Bulletin                
+0      2010    1              Communications of the ACM      
+1      2010    1              Vegetarian Times               
+0      2010    2              Communications of the ACM      
+1      2010    3              Communications of the ACM      
+1      2010    12             Vegetarian Times               
+1      2012    3              Communications of the ACM      
+
+1000  Mouse Minnie:
+DisplayHistory
+CheckOut  Muller Marcia               Edwin of the Iron Shoes         1977
+CheckOut  Muller Marcia               Eye of the Storm                1988
+CheckOut  Higgins Colin               Harold and Maude                1971
+
+1111  Mouse Mickey:
+DisplayHistory
+CheckOut  2010    1    Communications of the ACM 
+CheckOut  Danny Dunn & the Homework   Williams Jay                    1959
+Return    Danny Dunn & the Homework   Williams Jay                    1959
+CheckOut  2010    2    Communications of the ACM 
+CheckOut  2009    7    Communications of the ACM 
+CheckOut  Higgins Colin               Harold and Maude                1971
+
+5000  Moose Bullwinkle:
+DisplayHistory
+CheckOut  Danny Dunn & the Homework   Williams Jay                    1959
+Return    Danny Dunn & the Homework   Williams Jay                    1959
+CheckOut  Treehorn's Wish             Heide Florence Parry            1984
+CheckOut  Old Lars                    Magnus Erica                    1984
+CheckOut  Smokey                      Peet Bill                       1962
+CheckOut  Yertle the Turtle           Seuss Dr.                       1950
+CheckOut  Higgins Colin               Harold and Maude                1971
+CheckOut  Lewis Sinclair              Babbitt                         1922
+CheckOut  Higgins Colin               Harold and Maude                1971
+
+8888  Pig Porky:
+CheckOut  Forster E. M.               The Longest Journey             1922
+CheckOut  Walker Alice                The Color Purple                1982
+CheckOut  Wright Richard              Native Son                      1940
+CheckOut  Lawrence D. H.              Lady Chatterley's Lover         1928
+CheckOut  Higgins Colin               Harold and Maude                1971
+
+//---------------------------------------------------------------------------
+==166811== 
+==166811== HEAP SUMMARY:
+==166811==     in use at exit: 0 bytes in 0 blocks
+==166811==   total heap usage: 543 allocs, 543 frees, 144,117 bytes allocated
+==166811== 
+==166811== All heap blocks were freed -- no leaks are possible
+==166811== 
+==166811== For counts of detected and suppressed errors, rerun with: -v
+==166811== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+avakil@csslab10h:~/ucourses/css343/css343lab4$ exit
+
+Script done on 2021-12-10 19:19:26-08:00 [COMMAND_EXIT_CODE="0"]

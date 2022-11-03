@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/author.h
+string
+-
+person.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/person.h
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/book.h
+iostream
+-
+fstream
+-
+string
+-
+author.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/author.h
+date.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/date.h
+item.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/item.h
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/date.h
+iostream
+-
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/fiction.cpp
+fiction.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/fiction.h
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/fiction.h
+iostream
+-
+fstream
+-
+book.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/book.h
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/item.h
+iostream
+-
+fstream
+-
+nodedata.h
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/nodedata.h
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/nodedata.h
+string
+-
+iostream
+-
+fstream
+-
+
+C:/Users/EthoL/OneDrive/Desktop/CSS 343/css343lab4/person.h
+string
+-
+
